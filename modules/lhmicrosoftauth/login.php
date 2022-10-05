@@ -13,7 +13,7 @@ $mClient = new TheNetworg\OAuth2\Client\Provider\Azure([
 
 if (!isset($_GET['code'])) {
     // If we don't have an authorization code then get one
-    $authUrl = $mClient->getAuthorizationUrl(['scope' => $provider->scope]);
+    $authUrl = $mClient->getAuthorizationUrl(['scope' => $mClient->scope]);
     $_SESSION['OAuth2.state'] = $mClient->getState();
     header('Location: '.$authUrl);
     exit;
