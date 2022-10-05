@@ -1,0 +1,24 @@
+{
+  "name": "diegofn/lhcmicrosoftauth",
+  "version": "1.0",
+  "description": "Microsoft Azure OAuth Support for Live Helper Chat",
+  "type": "project",
+  "homepage": "https://www.techniclabs.app",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Diego Fernando Nieto",
+      "homepage": "https://www.techniclabs.app"
+    }
+  ],
+  "support": {
+    "email": "diegofn@techniclabs.app"
+  },
+  "require": {
+    "thenetworg/oauth2-azure": "^2.1"
+  },
+  "minimum-stability": "dev",
+  "config": {
+    "vendor-dir": "vendor"
+  }
+}
